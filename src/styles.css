@@ -4,8 +4,8 @@
 }
 
 @font-face {
-  font-family: "ktf-roadbrush";
-  src: url("./fonts/KTF-Roadbrush.ttf");
+  font-family: "inter";
+  src: url("./fonts/inter.woff2");
 }
 
 :root {
@@ -32,11 +32,13 @@ body {
   background-color: var(--primary-clr);
 }
 
+header {
+  padding: 8px;
+}
+
 header, footer {
   background-color: var(--secondary-clr);
   color: var(--text-clr);
-  padding: 8px;
-  
 }
 
 h1 {
@@ -150,20 +152,18 @@ button > img{
   background-color: var(--accent-clr);
 }
 
-footer p {
-  font-size: 1rem;
-  font-family: "ktf-roadbrush";
-  text-align: center;
-}
-
-footer a {
-  color: inherit;
-  display: inline-flex;
-  gap: 4px;
-}
-
 footer img {
   width: 16px;
   height: 16px;
-  align-self: center;
+}
+
+footer {
+  padding: 6px;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8125rem;
+  font-family: 'inter';
 }
