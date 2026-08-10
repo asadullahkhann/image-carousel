@@ -25,4 +25,4 @@ A responsive image carousel that displays 12 SVG images. It automatically moves 
 
 ## Live Demo
 
-Live at https://asadullahkhann.github.io/odin-image-carousel/
+Live at https://asadullahkhann.github.io/image-carousel/
