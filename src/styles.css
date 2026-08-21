@@ -149,9 +149,9 @@ footer {
   font-family: 'inter';
 }
 
-@media (min-width: 767px) {
+@media (max-width: 500px) {
   .slides > img {
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 250px;
   }
 }
