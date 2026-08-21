@@ -29,6 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 24px;
   background-color: var(--primary-clr);
 }
 
@@ -146,4 +147,11 @@ footer {
   gap: 4px;
   font-size: 0.8125rem;
   font-family: 'inter';
+}
+
+@media (min-width: 767px) {
+  .slides > img {
+    width: 400px;
+    height: 400px;
+  }
 }
