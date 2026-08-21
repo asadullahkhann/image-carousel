@@ -53,10 +53,7 @@ h1 {
   justify-content: center;
 }
 
-/* account for padding & border */
 .frame {
-  width: 340px;
-  height: 340px;
   display: flex;
   justify-content: center;
   position: relative;
