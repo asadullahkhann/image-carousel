@@ -48,11 +48,6 @@ h1 {
   font-family: "norse-bold";
 }
 
-h1 > img {
-  width: 32px;
-  height: 32px;
-}
-
 .content {
   display: flex;
   justify-content: center;
@@ -72,8 +67,6 @@ h1 > img {
 }
 
 .slides > img {
-  width: 300px;
-  height: 300px;
   border-radius: 5px;
   transform-origin: left;
   animation: slide .7s ease-out;
@@ -129,11 +122,6 @@ button:hover {
   cursor: pointer;
 }
 
-button > img{
-  width: 24px;
-  height: 24px;
-}
-
 .circles {
   position: absolute;
   bottom: 20px;
@@ -150,11 +138,6 @@ button > img{
 .circle.filled {
   border: 1px solid var(--accent-clr);
   background-color: var(--accent-clr);
-}
-
-footer img {
-  width: 16px;
-  height: 16px;
 }
 
 footer {
